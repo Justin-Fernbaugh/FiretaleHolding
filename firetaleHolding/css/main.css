@@ -11,6 +11,10 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+*, ::before, ::after {
+    transition: all ease-in-out 250ms; 
+}
+
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
